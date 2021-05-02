@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Movie data is being populated and prices compared 1`] = `
+<div
+  className="card p-3"
+>
+  <img
+    alt="Bahubali"
+    src=""
+  />
+  <div
+    className="card-body"
+  >
+    <div
+      className="pt-2 pb-1 movie-title font-weight-bold"
+    >
+      Bahubali
+    </div>
+    <div
+      className="fwPrice row"
+    >
+      <div
+        className="col-6"
+      >
+        Film World
+        :
+      </div>
+      <div
+        className="col-6"
+      >
+        50
+      </div>
+    </div>
+    <div
+      className="cwPrice row"
+    >
+      <span
+        className="col-6"
+      >
+        Cinema World
+        :
+      </span>
+      <span
+        className="col-6"
+      >
+        31 low!
+      </span>
+    </div>
+  </div>
+</div>
+`;
