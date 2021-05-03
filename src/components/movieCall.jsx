@@ -26,7 +26,7 @@ class MovieCall extends Component {
             }
         })
         .catch(error=> {
-            this.setState({errorMsg: "An error has occured. Please try later"})
+            this.setState({errorMsg: "Oops! Something is wrong. Please try again."})
             }
         )
         axios.get('https://challenge.lexicondigital.com.au/api/v2/filmworld/movies', {
@@ -40,7 +40,7 @@ class MovieCall extends Component {
             }     
         })
         .catch(error=> {
-            this.setState({errorMsg: "An error has occured. Please try later"})
+            this.setState({errorMsg: "Oops! Something is wrong. Please try again."})
             }
         )
     }
@@ -69,7 +69,7 @@ class MovieCall extends Component {
                         }
                     }): null  
                 }
-                { errorMsg ? <div>{errorMsg}</div> : null }
+                { errorMsg ? <h4 className="main-container text-center container text-white mt-3">{errorMsg}</h4> : null }
                 </div>
          );
     }

@@ -6,7 +6,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.main-container{
+  height: 100vh;
+}
 .card {
   background-color: lightgray  !important;
 }
@@ -14,7 +16,7 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
 }  
 .movie-title:hover{
@@ -23,4 +25,14 @@ body {
 }
 img{
   max-height: 450px
+}
+@media only screen and (min-width: 1200px) {
+  img {
+    height: 420px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  img {
+    height: 430px;
+  }
 }

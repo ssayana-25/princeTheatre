@@ -12,7 +12,6 @@ class MovieList extends Component {
             website1Price  =website1Price + " low!"
         }else if(parseFloat(website2Price)<parseFloat(website1Price)){
             website2Price  =website2Price  + " low!"
-            
         }
         return <div className="card p-3">
                 <img src={this.props.poster} alt={this.props.title}></img>
